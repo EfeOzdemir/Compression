@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MyGUI">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="true" same-size-vertically="true" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="791" height="462"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="9356a" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-22527"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="79a7c" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-22527"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="1c58" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-22527"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="a6d2e" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16312"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="27c89" layout-manager="FlowLayout" hgap="150" vgap="10" flow-align="1">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-16312"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="d6c87" class="javax.swing.JButton" binding="huffmanCompress">
+                            <constraints/>
+                            <properties>
+                              <background color="-22527"/>
+                              <foreground color="-16777216"/>
+                              <horizontalTextPosition value="0"/>
+                              <text value="COMPRESS"/>
+                            </properties>
+                          </component>
+                          <component id="2b5a4" class="javax.swing.JButton" binding="huffmanUncompress">
+                            <constraints/>
+                            <properties>
+                              <background color="-22527"/>
+                              <foreground color="-16777216"/>
+                              <text value="UNCOMPRESS"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <grid id="4a089" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-16312"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="7b41b" class="javax.swing.JLabel" binding="huffmanHeader">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font size="16" style="1"/>
+                              <foreground color="-16777216"/>
+                              <text value="HUFFMAN CODING"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                  <grid id="6c0a1" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16312"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="f75e9" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-16312"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="944bf" class="javax.swing.JLabel" binding="lzwHeader">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font size="16" style="1"/>
+                              <foreground color="-16777216"/>
+                              <text value="LZW COMPRESSION"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <grid id="c8760" layout-manager="FlowLayout" hgap="150" vgap="10" flow-align="1">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-16312"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="e56ce" class="javax.swing.JButton" binding="lzwCompress">
+                            <constraints/>
+                            <properties>
+                              <background color="-22527"/>
+                              <foreground color="-16777216"/>
+                              <text value="COMPRESS"/>
+                            </properties>
+                          </component>
+                          <component id="dddae" class="javax.swing.JButton" binding="lzwUncompress">
+                            <constraints/>
+                            <properties>
+                              <background color="-22527"/>
+                              <foreground color="-16777216"/>
+                              <text value="UNCOMPRESS"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="78127" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="20" left="0" bottom="20" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16312"/>
+                  <foreground color="-16777216"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="cc937" class="javax.swing.JLabel" binding="mainHeader">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                      <font size="20" style="1"/>
+                      <foreground color="-16777216"/>
+                      <text value="CHOOSE THE FILE AND PRESS THE COMPRESS/UNCOMPRESS BUTTON"/>
+                    </properties>
+                  </component>
+                  <component id="8bb68" class="javax.swing.JButton" binding="SELECTFILEButton" default-binding="true">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-22527"/>
+                      <font size="12"/>
+                      <foreground color="-16777216"/>
+                      <text value="SELECT FILE"/>
+                    </properties>
+                  </component>
+                  <component id="baf40" class="javax.swing.JFormattedTextField" binding="selectedFile">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-16312"/>
+                      <font size="12"/>
+                      <foreground color="-16777216"/>
+                      <horizontalAlignment value="0"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="a2100" class="javax.swing.JLabel" binding="selectedLabel">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16312"/>
+                      <font size="16" style="1"/>
+                      <foreground color="-4521972"/>
+                      <text value="SELECTED FILE:"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
